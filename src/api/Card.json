@@ -1,0 +1,43 @@
+[
+    {
+      "id": 1,
+      "title": "Services Offered",
+      "total": 25,
+      "newOffered": 10,
+      "icon": "path-to-your-icon.svg",
+      "color": "#5aa75a",
+      "details": "Details about services offered",
+      "path": "M31.8555 37.7778H9.33332C8.0833 37.7687 6.88662 37.2701 5.99998 36.3889C5.56064 35.9519 5.21181 35.4326 4.97348 34.8606C4.73516 34.2886 4.61201 33.6752 4.6111 33.0556V10.3111..."
+    },
+    {
+      "id": 2,
+      "title": "in Queue Services",
+      "total": 182,
+      "newOffered": 35,
+      "icon": "path-to-another-icon.svg",
+      "color": "#1a73e8",
+      "details": " New Queue",
+      "path": "M20 10H28V12H20V10Z"
+    },
+    {
+      "id": 3,
+      "title": "Completed Services",
+      "total": 1292,
+      "newOffered": 80,
+      "icon": "path-to-yet-another-icon.svg",
+      "color": "#ff5722",
+      "details": " New Completed",
+      "path": "M20 5V12H22V5H20Z"
+    },
+    {
+      "id": 4,
+      "title": "Total Review",
+      "total": 22786,
+      "newOffered": 290,
+      "icon": "path-to-feedback-icon.svg",
+      "color": "#ffeb3b",
+      "details": " New Review",
+      "path": "M5 3H10V5H5V3Z"
+    }
+  ]
+  
