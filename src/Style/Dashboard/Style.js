@@ -13,8 +13,15 @@ export const CardsWrapper = styled.div`
   align-items: flex-start;
   flex-direction: row;
   flex-wrap: wrap;
-  max-width: 1600px;
+  max-width: 2200px;
+  width: 100%;
+  margin-bottom: 30px;
+`;
+
+export const ChartsWrapper = styled.div`
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
   width: 100%;
   gap: 30px;
-  margin-bottom: 30px;
 `;

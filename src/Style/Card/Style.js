@@ -2,11 +2,10 @@ import styled from 'styled-components';
 
 export const Wrapper = styled.div`
     display: flex;
-    align-items: center;
-    justify-content: flex-start;
     flex-wrap: wrap;
     width: 100%;
     gap: 20px;
+    margin-bottom: 30px;
     box-sizing: border-box;
 `;
 
@@ -14,41 +13,37 @@ export const Box = styled.div`
     min-width: 281px;
     max-width: 345px;
     width: 100%;
-    height: auto;
-    padding: 0px 32px;
+    padding: 0 32px;
     border-radius: 4px;
     background: #fff;
     min-height: 170px;
     display: flex;
     align-items: center;
     justify-content: center;
-    box-sizing: border-box;
 `;
 
 export const DetailWrapper = styled.div`
-    /* max-width: 285px; */
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 0 auto;
 `;
 
 export const Left = styled.div`
     max-width: 145px;
     width: 100%;
-    p{
+    p {
         color: #6B7177;
-        padding-bottom: 5px;
-        white-space: nowrap; /* Prevent text from wrapping to the next line */
-        overflow: hidden;    /* Hide any text that overflows the container */
-        text-overflow: ellipsis; /* Display ellipses (...) for overflowing text */
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
     }
-    h2{
+    h2 {
         padding-bottom: 8px;
         line-height: 34px;
     }
 `;
+
 export const Right = styled.div`
     max-width: 58px;
     width: 100%;
@@ -61,9 +56,9 @@ export const Icon = styled.div`
     width: 58px;
     height: 52px;
     position: relative;
-    z-index: 9;
-    svg{
-        z-index: 9;
+    img {
+        z-index: 99;
+        position: relative;
     }
 `;
 
@@ -75,21 +70,13 @@ export const PlaceHolder = styled.div`
     position: absolute;
     top: 16px;
     right: 4px;
-    z-index: -1;
+    z-index: 0;
 `;
 
 export const TextWrapper = styled.div`
     display: flex;
     align-items: center;
     gap: 7px;
-    span{
-        padding: 0;
-    }
-    p{
-        padding: 0;
-    }
 `;
 
-export const Paper = styled.span`
-    
-`;
+export const Paper = styled.span``;

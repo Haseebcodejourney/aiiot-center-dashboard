@@ -1,8 +1,7 @@
 import React from 'react';
 import { Box, DetailWrapper, Icon, Left, PlaceHolder, Right, TextWrapper, Wrapper } from '../Style/Card/Style';
 import Typography from '../Style/Typography';
-import cardData from '../api/Card.json'; // Import the JSON file
-// import '../../src/assets/icons/'
+import cardData from '../api/Card.json';
 
 export default function Card() {
     return (
@@ -24,7 +23,6 @@ export default function Card() {
                         </Left>
                         <Right>
                             <Icon>
-                                {/* Replace with actual SVG or image icon */}
                                 <img src={`../../src/assets/icons/${card.icon}`} alt={`${card.title} icon`} width="40" height="40" />
                                 <PlaceHolder></PlaceHolder>
                             </Icon>

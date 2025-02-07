@@ -1,9 +1,11 @@
 import React from 'react'
 import { Container, PageWrapper } from '../Style/GlobalStyle';
 import Typography from '../Style/Typography';
-import { CardsWrapper, HeadingWrapper } from '../Style/Dashboard/Style';
+import { CardsWrapper, ChartsWrapper, HeadingWrapper } from '../Style/Dashboard/Style';
 import Card from './Card';
 import CardFetcher from './CardFetcher';
+import Tempracture from './Charts/Tempracture';
+import Humidity from './Charts/Humidity';
 
 export default function DashBoard() {
     return (
@@ -16,6 +18,10 @@ export default function DashBoard() {
                     </HeadingWrapper>
                     <CardsWrapper>
                        <Card/>
+                       <ChartsWrapper>
+                            <Tempracture />
+                            <Humidity/>
+                        </ChartsWrapper>
                     </CardsWrapper>
                 </Container>
             </PageWrapper>
