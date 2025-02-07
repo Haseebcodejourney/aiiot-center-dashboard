@@ -24,4 +24,5 @@ export const ChartsWrapper = styled.div`
   flex-direction: row;
   width: 100%;
   gap: 30px;
+  margin-bottom: 40px;
 `;

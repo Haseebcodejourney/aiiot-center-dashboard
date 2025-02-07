@@ -7,6 +7,7 @@ import Header from './components/Header';
 import DashBoard from './components/DashBoard';
 import { Main, MainWrapper } from './Style/GlobalStyle';
 import '../src/App.css';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
             <Route path="/profile" element={<h2>My Profile Page</h2>} />
             <Route path="/logout" element={<h2>Logging Out...</h2>} />
           </Routes>
+          <Footer/>
         </Main>
       </MainWrapper>
     </Router>

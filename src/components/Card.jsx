@@ -23,7 +23,7 @@ export default function Card() {
                         </Left>
                         <Right>
                             <Icon>
-                                <img src={`../../src/assets/icons/${card.icon}`} alt={`${card.title} icon`} width="40" height="40" />
+                                <img src={`../../src/assets/icons/${card.icon}`}  width="40" height="40" />
                                 <PlaceHolder></PlaceHolder>
                             </Icon>
                         </Right>
