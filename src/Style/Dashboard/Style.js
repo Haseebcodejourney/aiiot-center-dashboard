@@ -13,6 +13,8 @@ export const CardsWrapper = styled.div`
   align-items: flex-start;
   flex-direction: row;
   flex-wrap: wrap;
+  max-width: 1600px;
+  width: 100%;
   gap: 30px;
   margin-bottom: 30px;
 `;

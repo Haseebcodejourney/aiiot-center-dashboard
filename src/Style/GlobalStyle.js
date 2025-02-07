@@ -26,4 +26,5 @@ export const PageWrapper = styled.div`
 
 export const Container = styled.div`
     padding: 60px;
+    width: 100%;
 `;

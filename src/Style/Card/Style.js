@@ -3,8 +3,11 @@ import styled from 'styled-components';
 export const Wrapper = styled.div`
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     flex-wrap: wrap;
+    width: 100%;
+    gap: 20px;
+    box-sizing: border-box;
 `;
 
 export const Box = styled.div`
@@ -19,6 +22,7 @@ export const Box = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
+    box-sizing: border-box;
 `;
 
 export const DetailWrapper = styled.div`
@@ -31,11 +35,14 @@ export const DetailWrapper = styled.div`
 `;
 
 export const Left = styled.div`
-    max-width: 116px;
+    max-width: 145px;
     width: 100%;
     p{
         color: #6B7177;
         padding-bottom: 5px;
+        white-space: nowrap; /* Prevent text from wrapping to the next line */
+        overflow: hidden;    /* Hide any text that overflows the container */
+        text-overflow: ellipsis; /* Display ellipses (...) for overflowing text */
     }
     h2{
         padding-bottom: 8px;
