@@ -19,7 +19,7 @@ export default function TrafficChart() {
       <Card sx={{ border: `0px solid ${theme.palette.divider}`, borderRadius: '8px' }}>
         <CardContent>
           <h3 style={{ color: theme.palette.text.primary }}>Humidity</h3>
-          <ResponsiveContainer width="100%" height={420}>
+          <ResponsiveContainer width="100%" height={400}>
             <PieChart>
               <Pie
                 data={trafficData}

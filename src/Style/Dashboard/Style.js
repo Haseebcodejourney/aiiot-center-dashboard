@@ -20,7 +20,7 @@ export const CardsWrapper = styled.div`
 
 export const ChartsWrapper = styled.div`
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   flex-direction: row;
   width: 100%;
   gap: 30px;

@@ -12,6 +12,10 @@ export const Wrapper = styled.div`
         width: 100%;
         padding: 0px;
         box-shadow: none;
+        h3{
+            border-bottom: 1px solid #E9E9E9;
+            padding-bottom: 17px;
+        }
         div{
             box-shadow: none;  
         }

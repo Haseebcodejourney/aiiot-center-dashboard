@@ -12,6 +12,11 @@ export const Wrapper = styled.div`
         padding: 16px;
         width: 100%;
         box-shadow: none;
+        h3{
+            border-bottom: 1px solid #E9E9E9;
+            padding-bottom: 17px;
+            margin-bottom: 17px;
+        }
 
         /* Remove unnecessary padding reset */
         div {
