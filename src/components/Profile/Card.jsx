@@ -12,7 +12,7 @@ export default function Card() {
             <ImageWrapper>
                 <IL>
                     <Figure>
-                        <
+                        
                     </Figure>
                 </IL>
                 <IR></IR>
