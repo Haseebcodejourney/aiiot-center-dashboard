@@ -12,9 +12,9 @@ const variants = {
     color: "#222222",
   },
   h3: {
-    fontSize: "1.5rem",
+    fontSize: "17px",
     fontWeight: "500",
-    color: "#555",
+    color: "#222222",
   },
   p: {
     fontSize: "15px",

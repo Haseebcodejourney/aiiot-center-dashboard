@@ -8,6 +8,7 @@ import DashBoard from './components/DashBoard';
 import { Main, MainWrapper } from './Style/GlobalStyle';
 import '../src/App.css';
 import Footer from './components/Footer';
+import Profile from './components/Profile';
 
 function App() {
   return (
@@ -25,7 +26,7 @@ function App() {
             <Route path="/reviews" element={<h2>Reviews Page</h2>} />
             <Route path="/invoices" element={<h2>Invoices Page</h2>} />
             <Route path="/payouts" element={<h2>Payouts Page</h2>} />
-            <Route path="/profile" element={<h2>My Profile Page</h2>} />
+            <Route path="/profile" element={<Profile/>} />
             <Route path="/logout" element={<h2>Logging Out...</h2>} />
           </Routes>
           <Footer/>
