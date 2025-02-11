@@ -5,7 +5,7 @@ import { BarChart2, FileText, Heart, Mail, BarChart, FileText as FileInvoice, Cr
 import Sidebar from './components/SideBar';
 import Header from './components/Header';
 import DashBoard from './components/DashBoard';
-import { Main, MainWrapper } from './Style/GlobalStyle';
+import { Main, MainWrapper } from './style/GlobalStyle';
 import '../src/App.css';
 import Footer from './components/Footer';
 import Profile from './components/Profile';
